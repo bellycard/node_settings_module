@@ -1,0 +1,19 @@
+{
+  "name": "node_settings_module",
+  "description": "Simple node module to manage application settings",
+  "author": "Belly Inc.",
+  "main": "node_settings_module",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "*",
+    "path": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bellycard/node_settings_module.git"
+  },
+  "license": "MIT"
+}
