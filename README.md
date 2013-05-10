@@ -15,6 +15,8 @@ Add to your dependencies in package.json, with a reference to this repository
 
 ### Usage
 
+Make sure your environment variable NODE_ENV is set
+
 Create a file called /settings/settings.json
 
 ```JSON
