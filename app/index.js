@@ -9,14 +9,14 @@ settings_cache = null;
 
 env = process.env.NODE_ENV;
 
-console.log(("Loading and parsing application settings for env: " + env).info);
+console.log("Loading and parsing application settings for env: " + env);
 
 if (env === 'development' || env === 'test' || env === 'production') {
   settings = require(path.join(process.cwd(), 'settings', 'settings.json'));
   settings_cache = settings[env];
   return;
 } else {
-  console.log("NODE_ENV not correctly set".error);
+  console.log("NODE_ENV not correctly set");
 }
 
 exports.get = function(key, callback) {

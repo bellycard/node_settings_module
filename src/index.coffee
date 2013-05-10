@@ -6,7 +6,7 @@ settings_cache = null
 
 env = process.env.NODE_ENV
 
-console.log "Loading and parsing application settings for env: #{env}".info
+console.log "Loading and parsing application settings for env: #{env}"
 
 # Handle default environments
 if env in ['development', 'test', 'production']
@@ -15,7 +15,7 @@ if env in ['development', 'test', 'production']
   return
 
 else
-  console.log "NODE_ENV not correctly set".error
+  console.log "NODE_ENV not correctly set"
 
 
 # helper method to get the settings

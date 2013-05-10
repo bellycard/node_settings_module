@@ -3,7 +3,7 @@
   "description": "Simple node module to manage application settings",
   "author": "Belly Inc.",
   "main": "node_settings_module",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "dependencies": {
     "request": "*",
     "path": "*"
