@@ -4,7 +4,7 @@ path = require 'path'
 # so we only need to load the data the first time the module is used
 settings_cache = null
 
-env = process.env.NODE_ENV
+env = process.env.NODE_ENV or 'development'
 
 console.log "Loading and parsing application settings for env: #{env}"
 
