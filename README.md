@@ -9,7 +9,7 @@ Add to your dependencies in package.json, with a reference to this repository
 
 ```JAVASCRIPT
 "dependencies": {
-  "node_settings_module": "git://github.com/bellycard/node_settings_module.git#v0.0.4"
+  "node_settings_module": "git://github.com/bellycard/node_settings_module.git#v0.0.5"
 }
 ```
 
