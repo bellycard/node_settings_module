@@ -13,7 +13,7 @@
   console.log("Loading and parsing application settings for env: " + env);
 
   if (env === 'development' || env === 'test' || env === 'production') {
-    settings = require(path.resolve('settings', 'settings.json'));
+    settings = require(path.join(__dirname, '..', '..', '..', 'settings', 'settings.json'));
     settings_cache = settings[env];
   } else {
     console.log("NODE_ENV not correctly set");
