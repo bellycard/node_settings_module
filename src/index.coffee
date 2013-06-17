@@ -10,7 +10,7 @@ console.log "Loading and parsing application settings for env: #{env}"
 
 # Handle default environments
 if env in ['development', 'test', 'production']
-  settings = require(path.resolve('settings', 'settings.json'))
+  settings = require(path.join(__dirname, '..', '..', '..', 'settings', 'settings.json'))
   settings_cache = settings[env]
 
 else
